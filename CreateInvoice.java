@@ -12,7 +12,6 @@ public class CreateInvoice {
 	public static void createIn(String distrib, int quan, Date orderDate,Date deliveryDate, int personsid, int productsid){
 		// database URL
 		final String DATABASE_URL = "jdbc:mysql://localhost/jdbcproject";
-	//	String prodID = "SELECT products.ProductID, InvoiceID FROM Orders INNER JOIN products ON products.CustomerID = invoice.InvoiceID";
 		
 		Connection connection = null;
 		Statement statement = null;
