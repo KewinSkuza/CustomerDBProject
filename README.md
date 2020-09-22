@@ -16,14 +16,14 @@ DATABASE tables fields and types are:
 
 persons  
 +--------------+--------------+------+-----+---------+----------------+  
-Field            Type         | Null | Key | Default | Extra          |  
+Field           Type         | Null | Key | Default | Extra          |  
 +--------------+--------------+------+-----+---------+----------------+  
-personid         int(11)      | NO   | PRI | NULL    | auto_increment |  
-lastname         varchar(255) | NO   |     | NULL    |                |  
-firstname        varchar(255) | YES  |     | NULL    |                |  
-address          varchar(255) | NO   |     | NULL    |                |  
-phonenumber      int(11)      | NO   |     | NULL    |                |  
-emailaddress     varchar(255) | NO   |     | NULL    |                |  
+personid        int(11)      | NO   | PRI | NULL    | auto_increment |  
+lastname        varchar(255) | NO   |     | NULL    |                |  
+firstname       varchar(255) | YES  |     | NULL    |                |  
+address         varchar(255) | NO   |     | NULL    |                |  
+phonenumber     int(11)      | NO   |     | NULL    |                |  
+emailaddress    varchar(255) | NO   |     | NULL    |                |  
 +--------------+--------------+------+-----+---------+----------------+  
 
 
