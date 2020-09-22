@@ -24,25 +24,20 @@ phonenumber, int(11)
 emailaddress, varchar(255)  
 
 
-products
-+-------------+--------------+------+-----+---------+----------------+
-| Field       | Type         | Null | Key | Default | Extra          |
-+-------------+--------------+------+-----+---------+----------------+
-| productid   | int(11)      | NO   | PRI | NULL    | auto_increment |
-| productname | varchar(255) | NO   |     | NULL    |                |
-| description | varchar(255) | YES  |     | NULL    |                |
-| price       | int(11)      | NO   |     | NULL    |                |
-+-------------+--------------+------+-----+---------+----------------+
+products  
 
-invoice
-+--------------+--------------+------+-----+---------+----------------+
-| Field        | Type         | Null | Key | Default | Extra          |
-+--------------+--------------+------+-----+---------+----------------+
-| invoiceid    | int(11)      | NO   | PRI | NULL    | auto_increment |
-| distributor  | varchar(255) | NO   |     | NULL    |                |
-| quantity     | int(11)      | NO   |     | NULL    |                |
-| orderdate    | date         | NO   |     | NULL    |                |
-| deliverydate | date         | YES  |     | NULL    |                |
-| personsid    | int(11)      | NO   |     | NULL    |                |
-| productsid   | int(11)      | NO   |     | NULL    |                |
-+--------------+--------------+------+-----+---------+----------------+
+productid, int(11), Key, auto_increment  
+productname, varchar(255)  
+description, varchar(255)  
+price, int(11)  
+
+
+invoice  
+
+invoiceid, int(11), Key, auto_increment  
+distributor, varchar(255)  
+quantity, int(11)  
+orderdate, date  
+deliverydate, date  
+personsid, int(11)  
+productid, int(11)  
