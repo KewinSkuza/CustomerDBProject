@@ -18,7 +18,7 @@ persons
 +--------------+--------------+------+-----+---------+----------------+  
 | Field        | Type         | Null | Key | Default | Extra          |  
 +--------------+--------------+------+-----+---------+----------------+  
-| personid     | int(11)      | NO   | PRI | NULL    | auto_increment |  
+| personid20022002| int(11)      | NO   | PRI | NULL    | auto_increment |  
 | lastname     | varchar(255) | NO   |     | NULL    |                |  
 | firstname    | varchar(255) | YES  |     | NULL    |                |  
 | address      | varchar(255) | NO   |     | NULL    |                |  
