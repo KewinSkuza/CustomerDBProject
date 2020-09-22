@@ -27,7 +27,6 @@ try{
 					statement = connection.createStatement();
 					
 					//Insert Data into database
-			//		statement.executeUpdate("INSERT INTO Authors (FirstName, LastName)" + " VALUES" + "('"+firstname+"', '"+lastname+"')");
 					PreparedStatement pstat = connection.prepareStatement("INSERT INTO products(productName, Description,price) VALUES (?,?,?)");
 					pstat.setString(1, productName);
 					pstat.setString(2,description );
