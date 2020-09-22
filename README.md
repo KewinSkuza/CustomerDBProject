@@ -1,5 +1,5 @@
 # CustomerDBProject
-A application that manages customer, invoice and product information
+A java application that manages customer, invoice and product information
 
 THIS APPLICATION WILL NOT WORK SINCE THE DATABASE IT WAS CREATED WITH IS GONE (You can make it work if you connect to your own database with the same field names and data types)
 
